@@ -1,4 +1,4 @@
-program matrix
+program Solve_Hamiltonian
       implicit none(type,external)
 
       complex    :: H(4,4), evec(4,4), dwork(1000)
@@ -49,7 +49,7 @@ program matrix
       
       deallocate(work)
 
-end program matrix
+end program Solve_Hamiltonian
 
 !some auxiallary routines for printing
 subroutine print_mat(m,n,H)
