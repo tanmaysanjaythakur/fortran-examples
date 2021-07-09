@@ -74,4 +74,4 @@ subroutine print_sol(eval,evec,m,n)
 9998  format(:,1X,F5.2,1X,':',1X,'{',4('(',F5.2,',',F5.2,')'),'}')
       return
 end subroutine print_sol
-!gfortran -L/usr/local/lib/ -o matrix matrix.f90 -lblas -llapack 
+!gfortran -L/usr/local/lib/ -o solve_ham solve_ham.f90 -lblas -llapack 
