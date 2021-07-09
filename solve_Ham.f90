@@ -1,3 +1,8 @@
+! Author: tanmaysanjaythakur
+! Description: This program solves for eigen values and vectors for complex
+! hermitian matrix of order 4x4
+! the documentation for cheevx can be found at http://www.netlib.org/lapack/explore-html/index.html
+
 program Solve_Hamiltonian
       implicit none(type,external)
 
